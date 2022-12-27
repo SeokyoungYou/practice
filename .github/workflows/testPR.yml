@@ -9,5 +9,5 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-      - run: npm ci
+      - run: npm i
       - run: npm run test -- --watchAll=false
